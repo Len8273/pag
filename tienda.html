@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SacZtile</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/logo.jpg" alt="Logo de la página" class="logo" >
+          <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="fotos.html">Fotografia</a></li>
+          </ul>
+          <section id="carrito" class="carrito-contenido">
+            <h2>Tu Carrito</h2>
+            <p>Manda una captura por WhatsApp</p>
+            <ul id="items-carrito">
+            </ul>
+            <p>Total: $<span id="total">0.00</span></p>
+            <button id="vaciar-carrito">Vaciar Carrito</button>
+        </section>
+        </nav>
+    </header>
+    
+    <section id="productos" class="productos">
+      <h2>Todos los productos</h2>
+      <div class="productos-lista">
+          <div class="producto" data-id="1" data-nombre="Escudo de Zelda" data-precio="20.00">
+              <img src="img/escudo.jpg" alt="Escudo de Zelda" width="100">
+              <h3>Escudo de zelda</h3>
+              <p class="precio">$20.00</p>
+              <a href="#" class="btn-comprar">Añadir al carrito</a>
+          </div>
+          <div class="producto" data-id="2" data-nombre="Tabla para cortar custom" data-precio="35.00">
+              <img src="img/tabla.jpg" alt="Tabla para cortar custom" width="100">
+              <h3>Tabla para cortar Custom</h3>
+              <p class="precio">$35.00</p>
+              <a href="#" class="btn-comprar">Añadir al carrito</a>
+          </div>
+          <div class="producto" data-id="3" data-nombre="Estrella de la muerte" data-precio="15.00">
+              <img src="img/estrella.jpg" alt="Estrella de la muerte" width="100">
+              <h3>Estrella de la muerte</h3>
+              <p class="precio">$15.00</p>
+              <a href="#" class="btn-comprar">Añadir al carrito</a>
+          </div>
+          <div class="producto" data-id="3" data-nombre="Carrito Decorativo" data-precio="15.00">
+            <img src="img/carrito.jpg" alt="Carrito Decorativo" width="100">
+            <h3>Carrito para Decoracion</h3>
+            <p class="precio">$15.00</p>
+            <a href="#" class="btn-comprar">Añadir al carrito</a>
+        </div>
+      </div>
+  </section>
+
+  <script src="carrito.js"></script>
+</body>
+</html>
